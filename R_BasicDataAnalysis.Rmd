@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Introduction
 
-Let's start by loading a datafile. We are using the datafile with 752 women's wages and working hours as well as other variables. These are the data in the `mroz.csv` file ([mroz.csv](https://github.com/datasquad/ECLR/blob/gh-pages/data/Mroz.csv)). Make sure that this file is loaded into a data subfolder of your working directory. 
+Let's start by loading a datafile. We are using the datafile with 752 women's wages and working hours as well as other variables. These are the data in the `mroz.csv` file ([mroz.csv](data/Mroz.csv)). Make sure that this file is loaded into a data subfolder of your working directory. 
 
 ```{r cars}
 mydata <- read.csv("data/mroz.csv",na.strings = ".")  # Opens mroz.csv from working directory
@@ -105,7 +105,7 @@ It is important to understand that there is not one correct way to do things, bu
 
 An issue you will often encounter is that you want to do some analysis but not on all the observations you have in your dataset. Let's say you wish to calculate the correlation between the hours a women works (`hours`) and the hours her husband works (`hushrs`). But you want to do that only for those women who actually work more than 100 hours a year.
 
-There are multiple ways of doing this (and also check out the [Data Summary using Tidyverse](https://datasquad.github.io/ECLR/Rwork/SummaryStatsTidyverse.html) page for an elegant alternative way of doing so).
+There are multiple ways of doing this (and also check out the [Data Summary using Tidyverse](SummaryStatsTidyverse.html) page for an elegant alternative way of doing so).
 
 ```{r}
 mydata.sub1 <- subset(mydata, hours > 100, select = c("hours","hushrs"))

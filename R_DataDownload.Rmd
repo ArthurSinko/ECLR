@@ -16,7 +16,7 @@ Here we will demonstrate how to load data into R. There are two ways to do this.
 
 # File upload
 
-When you are working with an existing datafile on your computer, then you should first ensure that you have set your working directory such that it points to the folder from which you are working and where you can find your datafile. Let's assume that you have saved [mroz.csv](https://github.com/datasquad/ECLR/blob/gh-pages/data/Mroz.csv){target="_blank"} to your working directory: `C:\Rwork`. Then the command below should read `setwd("C:/Rwork")`. Note that all backward slashes (`\`) have to be replaced by forward slashes (`/`). 
+When you are working with an existing datafile on your computer, then you should first ensure that you have set your working directory such that it points to the folder from which you are working and where you can find your datafile. Let's assume that you have saved [mroz.csv](data/Mroz.csv){target="_blank"} to your working directory: `C:\Rwork`. Then the command below should read `setwd("C:/Rwork")`. Note that all backward slashes (`\`) have to be replaced by forward slashes (`/`). 
 
 ```{r, eval = FALSE}
 setwd("XXXX:/XXXX")   # replace the XXXX with your drive and path
@@ -64,7 +64,7 @@ mydata <- read.csv("data/Mroz.csv", na.strings = ".")
 
 You can now test with `str(mydata)` to confirm that the `wage` and `lwage` data are now recognised as numeric data.
 
-If your data come as an excel file ([mroz.xlsx](https://datasquad.github.io/ECLR/Data/mroz.xlsx)), then we need to use a different function. There are, as always, different functions which do the same job. We recommend `read_excel` which comes from the `readxl` package (needs loading!). Note that the option to indicate how missing values are coded is here called `na`.
+If your data come as an excel file ([mroz.xlsx](Data/mroz.xlsx)), then we need to use a different function. There are, as always, different functions which do the same job. We recommend `read_excel` which comes from the `readxl` package (needs loading!). Note that the option to indicate how missing values are coded is here called `na`.
 
 
 ```{r, eval=FALSE}

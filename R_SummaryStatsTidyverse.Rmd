@@ -25,7 +25,7 @@ By the way, at this stage you should take five minuted to learn about [https://p
 
 # Loading a dataset
 
-Let's get a dataset to look at. We shall use the Baseball wages dataset, including 353 Baseball Players in 1993 (get the datafile from here:  [mlb1.csv](https://github.com/datasquad/ECLR/blob/gh-pages/data/mlb1.csv)).
+Let's get a dataset to look at. We shall use the Baseball wages dataset, including 353 Baseball Players in 1993 (get the datafile from here:  [mlb1.csv](data/mlb1.csv)).
 
 ```{r}
 mydata <- read.csv("data/mlb1.csv")

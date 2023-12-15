@@ -30,7 +30,7 @@ library(haven)        # to import stata file
 library(AER)          # access to HS robust standard errors
 ```
 
-We will also use one function saved in a .r file. The function in this file will be explained below. This file is available for download from here: [stargazer_HC.R](https://github.com/datasquad/ECLR/blob/gh-pages/docs/stargazer_HC.R). When you get to that page you will see a download button. 
+We will also use one function saved in a .r file. The function in this file will be explained below. This file is available for download from here: [stargazer_HC.R](docs/stargazer_HC.R). When you get to that page you will see a download button. 
 
 ![](images/GitHubdownload.png)
 
@@ -58,7 +58,7 @@ The data are an extract from the [Understanding Society Survey](https://www.unde
 
 # Data Upload - and understanding data structure
 
-Load the data ([20222_USoc_extract.dta](https://github.com/datasquad/ECLR/blob/gh-pages/data/20222_USoc_extract.dta)), which are saved in a STATA datafile (extension `.dta`), into your working directory. There is a function which loads STATA file. It is called `read_dta` and is supplied by the `haven` package.
+Load the data ([20222_USoc_extract.dta](data/20222_USoc_extract.dta)), which are saved in a STATA datafile (extension `.dta`), into your working directory. There is a function which loads STATA file. It is called `read_dta` and is supplied by the `haven` package.
 
 ```{r, echo = FALSE}
 data_USoc <- read_dta("data/20222_USoc_extract.dta")

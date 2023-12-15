@@ -29,7 +29,7 @@ library(gridExtra)  # required for the combination of ggplots
 
 ```
 
-We will also use two functions saved in .r files. The function of these two files will be explained below. These are available for download from here: [stargazer_HC.R](https://github.com/datasquad/ECLR/blob/gh-pages/docs/stargazer_HC.R) and [stargazer_HAC.R](https://github.com/datasquad/ECLR/blob/gh-pages/docs/stargazer_HAC.R).
+We will also use two functions saved in .r files. The function of these two files will be explained below. These are available for download from here: [stargazer_HC.R](docs/stargazer_HC.R) and [stargazer_HAC.R](docs/stargazer_HAC.R).
 
 When you get to that page you will see a download button. 
 
@@ -51,7 +51,7 @@ source("docs/stargazer_HAC.r")  # includes the Newey-West standard errors
 
 ## Import data
 
-We shall use some data from the Office for National Statistics (ONS) in the UK. The `pdfetch` package delivers direct access to the data of the ONS. When you get data from the ONS you need to know what the series id is and in which ONS dataset you can find these data. The way to find out what that info is it is best to go to [the ONS time series tool](https://www.ons.gov.uk/timeseriestool). YOu can find more detail on how to use this tool from [here](https://datasquad.github.io/ECLR/R_DataDownload.html).
+We shall use some data from the Office for National Statistics (ONS) in the UK. The `pdfetch` package delivers direct access to the data of the ONS. When you get data from the ONS you need to know what the series id is and in which ONS dataset you can find these data. The way to find out what that info is it is best to go to [the ONS time series tool](https://www.ons.gov.uk/timeseriestool). YOu can find more detail on how to use this tool from [here](R_DataDownload.html).
 
 For instance we can get real GDP data (id: AMBI) from the UKEA databank.
 
@@ -416,7 +416,7 @@ In this page you learned how to deal with time-series data, visualise these in p
 
 # Addendum - Spurious correlations and regressions
 
-Let's get some datasets from EUROSTAT. The data are saved here: [EUROSTATtimeseries.csv](https://datasquad.github.io/ECLR/blob/EUROSTATtimeseries.csv). Save this file into your working directory. The dataset contains the following four variables
+Let's get some datasets from EUROSTAT. The data are saved here: [EUROSTATtimeseries.csv](data/EUROSTATtimeseries.csv). Save this file into your working directory. The dataset contains the following four variables
 
 * % of agricultural area Total fully converted and under conversion to organic farming in Germany, "sdg_02_40"
 * Thousands of passengers travelling to and from Norway by boat, "mar_pa_aa"

@@ -26,7 +26,7 @@ When you load a package with the `library()` command you will often get some war
 
 # Loading a dataset
 
-Let's get a dataset to look at. We shall use the Baseball wages dataset, [mlb1.csv](https://github.com/datasquad/ECLR/raw/gh-pages/data/mlb1.csv). Make sure that it is saved into your working directory. (Recall, use `setwd()` to set your working directory).
+Let's get a dataset to look at. We shall use the Baseball wages dataset, [mlb1.csv](data/mlb1.csv). Make sure that it is saved into your working directory. (Recall, use `setwd()` to set your working directory).
 
 ```{r, eval = FALSE}
 mydata <- read.csv("mlb1.csv", na.strings = ".")

@@ -36,19 +36,19 @@ In the following some data visualisation techniques are introduced.
 
 | Topic | Workthrough | Data used |
 |:------|:-----|:-----|
-| Basic Data Visualisation (ggplot) | Workthrough: [Workthrough in R](https://datasquad.github.io/ECLR/R_GraphIntro.html) | [mlb1.csv](https://github.com/datasquad/ECLR/blob/gh-pages/data/mlb1.csv) 
+| Basic Data Visualisation (ggplot) | Workthrough: [Workthrough in R](R_GraphIntro.html) | [mlb1.csv](data/mlb1.csv) 
 
 # Regression models and related techniques
 
 | Topic | Workthrough | Data used |
 |:------|:-----|:-----|
-| Basic regression models | Workthrough: [Workthrough in R](https://datasquad.github.io/ECLR/R_RegressionIntro.html) | [WBdata.Rdata](https://github.com/datasquad/ECLR/blob/gh-pages/data/WBdata.Rdata) 
+| Basic regression models | Workthrough: [Workthrough in R](R_RegressionIntro.html) | [WBdata.Rdata](data/WBdata.Rdata) 
 
 ## Dealing with Time-Series variables
 
 | Topic | Workthrough | Data used |
 |:------|:-----|:-----|
-| Basic TS modeling | Workthrough: [Workthrough in R](https://datasquad.github.io/ECLR/R_TS_Modelling.html) | [EUROSTATtimeseries.csv](https://github.com/datasquad/ECLR/blob/gh-pages/data/EUROSTATtimeseries.csv) 
+| Basic TS modeling | Workthrough: [Workthrough in R](R_TS_Modelling.html) | [EUROSTATtimeseries.csv](data/EUROSTATtimeseries.csv) 
 
 
 # Examples
@@ -61,4 +61,4 @@ On the Examples section of this page we collate empirical examples which can be 
 
 The examples from these books and others have been amended or re-written such that students can either use them directly or to facilitate adoption by lecturers.
 
-You can find [further resources here](https://datasquad.github.io/ECLR/resources.html).
+You can find [further resources here](resources.html).
